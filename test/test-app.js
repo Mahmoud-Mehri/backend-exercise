@@ -81,7 +81,6 @@ describe("Testing API Server", () => {
             });
     })
 
-
     it("Should return all Unpaid Jobs related to the Profile", function(done) {
         supertest(app)
             .get('/jobs/unpaid')
